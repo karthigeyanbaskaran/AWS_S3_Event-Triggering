@@ -80,3 +80,6 @@ If you encounter issues with your AWS S3 Event Triggering setup, consider the fo
 ## Conclusion
 
 AWS S3 Event Triggering is a powerful feature that enables you to automate tasks in response to events in your S3 buckets. By following the steps outlined in this README, you can set up and customize event triggers to streamline your AWS workflows and respond to S3 events effectively.
+
+##Note:
+don't forget to add your account ID in the lambda py file --> topic_arn = 'arn:aws:sns:us-east-1:<account-id>:s3-lambda-sns'
