@@ -1,18 +1,4 @@
 # AWS S3 Event Triggering
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Setting Up AWS S3 Event Triggering](#setting-up-aws-s3-event-triggering)
-    - [1. Create an AWS Lambda Function](#1-create-an-aws-lambda-function)
-    - [2. Configure the S3 Bucket](#2-configure-the-s3-bucket)
-    - [3. Configure the S3 Event Trigger](#3-configure-the-s3-event-trigger)
-- [Testing the S3 Event Trigger](#testing-the-s3-event-trigger)
-- [Customization and Advanced Use Cases](#customization-and-advanced-use-cases)
-- [Troubleshooting](#troubleshooting)
-- [Conclusion](#conclusion)
-
 ## Introduction
 
 AWS Simple Storage Service (S3) provides a highly scalable and durable object storage solution. One of the powerful features of S3 is the ability to trigger AWS Lambda functions in response to events that occur in your S3 buckets. This allows you to automate various tasks, such as processing uploaded files, generating thumbnails, or sending notifications, in response to S3 events.
